@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="box-list">
+        <h1 class="title"> Todo List </h1>
+        <hr>
+        <section class="card-input">
+            <h4 class="title-input">Nueva Tarea</h4>
+            <div class="input-add">
+                <input class="input-style" id="inputTask" type="text" placeholder="Ingresar Tareas">
+                <button class="btn-add" id="btn-add">Agregar</button>
+            </div>
+        </section>
+        <section class="sec-tareas">
+            <div class="conteo">
+                <p id="total">Total:</p>
+                <p id="realizadas">Realizadas:</p>
+            </div>
+            <div class="tabla">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tarea</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="task-list" >
+                        
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+    </section>
+
+    <script src="./assets/Js/script.js"></script>
+</body>
+
+</html>

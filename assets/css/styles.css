@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-list {
+    background-color: grey;
+    /* height: 300px; */
+    width: 500px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.title  {
+    margin: .1rem;
+}
+
+.input-style {
+    font-size: 1.5rem;
+    border-radius: .3rem;
+    width: 380px;
+    height: 2.2rem;
+    margin: 0;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.input-add {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.btn-add {
+    font-size: 1rem;
+    height: 2.2rem;
+    width: 7rem;
+    margin: 0 0 0 .5rem;
+    border-radius: .5rem;
+    border: none;
+
+}
+
+.title-input {
+    margin: 0 0 .5rem 0 ;
+}
+
+.card-input {
+    margin-top: 2rem;
+}
+
+.conteo {
+    margin-top: 2rem;
+    width: 50%;
+    
+    p {
+        margin: 0;
+    }
+}
+
+.tabla  {
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.column {
+    padding: 0 0 0 1rem;
+}
+
+.sec-tareas {
+    display: flex;
+    flex-direction: row;
+}
+
+.delete-btn {
+    color: #b30000;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: bold;
+}
