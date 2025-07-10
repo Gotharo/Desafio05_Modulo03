@@ -23,7 +23,7 @@ function renderTask(taskArray) {
     for (const [index, task] of taskArray.entries()) {
         listTask.innerHTML += `<tr>
             <td>${task.id}</td>
-            <td>${task.text}</td>
+            <td>${task.text}${task.completed ? ' <span style="color: green; font-weight: bold;">Realizado</span>' : ''}</td>
             <td>
                 <input type="checkbox" ${task.completed ? "checked" : ""} onclick="taskCompleted(${index})">
             </td>
